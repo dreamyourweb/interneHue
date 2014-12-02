@@ -8,32 +8,24 @@
 	"buffers":
 	[
 		{
-			"file": "hue.js",
+			"file": "lib/control_lights.js",
 			"settings":
 			{
-				"buffer_size": 478,
+				"buffer_size": 1758,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "var test = \"nu\";\nvar ",
-			"file": "test.js",
-			"file_size": 30,
-			"file_write_time": 130620082610000000,
-			"settings":
-			{
-				"buffer_size": 21,
-				"line_ending": "Unix",
-				"name": "var test = \"nu\";"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 47.0,
+		"height": 188.0,
 		"selected_items":
 		[
+			[
+				"tern",
+				"TernJS: Reload"
+			],
 			[
 				"instal	",
 				"Package Control: Install Package"
@@ -59,7 +51,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 292.0
 	},
 	"console":
 	{
@@ -80,9 +72,15 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/bramdenteuling/Projects/js/hue",
+		"/Users/bramdenteuling/Projects/js/hue/lib",
+		"/Users/bramdenteuling/Projects/js/hue/lib/utils"
 	],
 	"file_history":
 	[
+		"/Users/bramdenteuling/Projects/js/hue/test.js",
+		"/Users/bramdenteuling/.jshintrc",
+		"/Users/bramdenteuling/Projects/js/hue/hue.sublime-project",
 		"/Users/bramdenteuling/Projects/js/hue/packages/npm-container/index.js",
 		"/Users/bramdenteuling/Projects/js/hue/.meteor/local/build/programs/server/packages/insecure.js",
 		"/Users/bramdenteuling/Projects/js/hue/.meteor/local/build/programs/server/node_modules/phantomjs/install.js"
@@ -120,60 +118,31 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "hue.js",
-					"semi_transient": true,
+					"file": "lib/control_lights.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 478,
+						"buffer_size": 1758,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								374,
-								374
+								1332,
+								1332
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "test.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								21,
-								21
-							]
-						],
-						"settings":
-						{
-							"auto_name": "var test = \"nu\";",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
