@@ -11,8 +11,51 @@
 			"file": "lib/control_lights.js",
 			"settings":
 			{
-				"buffer_size": 1758,
+				"buffer_size": 3636,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".meteor/release",
+			"settings":
+			{
+				"buffer_size": 22,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".meteor/versions",
+			"settings":
+			{
+				"buffer_size": 1251,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "packages/npm-container/package.js",
+			"settings":
+			{
+				"buffer_size": 2012,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$env:MONGO_URL = 'mongodb://bramsdenteuling:orikamiNL@localhost:27017/smelloftheplace-1657'",
+			"file": "hue.ps1",
+			"file_size": 34,
+			"file_write_time": 130674396138953444,
+			"settings":
+			{
+				"buffer_size": 91,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "packages.json",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -72,12 +115,17 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/bramdenteuling/Projects/js/hue",
-		"/Users/bramdenteuling/Projects/js/hue/lib",
-		"/Users/bramdenteuling/Projects/js/hue/lib/utils"
+		"/C/Users/Andres/Projects/meteor/interneHue",
+		"/C/Users/Andres/Projects/meteor/interneHue/.meteor",
+		"/C/Users/Andres/Projects/meteor/interneHue/packages",
+		"/C/Users/Andres/Projects/meteor/interneHue/packages/npm-container",
+		"/C/Users/Andres/Projects/meteor/interneHue/packages/npm-container/.npm"
 	],
 	"file_history":
 	[
+		"/C/Users/Andres/Projects/meteor/interneHue/packages/npm-container/.gitignore",
+		"/C/Users/Andres/Projects/meteor/interneHue/.meteor/packages",
+		"/C/Users/Andres/Projects/meteor/interneHue/packages.json",
 		"/Users/bramdenteuling/Projects/js/hue/test.js",
 		"/Users/bramdenteuling/.jshintrc",
 		"/Users/bramdenteuling/Projects/js/hue/hue.sublime-project",
@@ -87,7 +135,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -118,7 +166,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -127,19 +175,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1758,
+						"buffer_size": 3636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1332,
-								1332
+								1436,
+								1436
 							]
 						],
 						"settings":
 						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -148,7 +198,159 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": ".meteor/release",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".meteor/versions",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "packages/npm-container/package.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2012,
+								2012
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "hue.ps1",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "packages.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -204,16 +406,24 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				".meteor\\packages"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"smell",
+				"C:\\Users\\Andres\\Projects\\meteor\\smell\\smell.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -231,7 +441,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 448.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
