@@ -1,0 +1,1 @@
+$env:MONGO_URL = 'mongodb://bramsdenteuling:orikamiNL@localhost:27017/smelloftheplace-1657'
