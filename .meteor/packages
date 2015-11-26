@@ -7,8 +7,10 @@ meteor-platform
 autopublish
 insecure
 meteorhacks:npm
+d3
+
 
 
 npm-container
-d3
-
+promise
+ongoworks:ddp-login
